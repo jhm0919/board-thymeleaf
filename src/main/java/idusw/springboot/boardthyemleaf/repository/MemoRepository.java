@@ -1,8 +1,8 @@
-package idusw.springboot.boradthymleaf.repository;
+package idusw.springboot.boardthyemleaf.repository;
 
-import idusw.springboot.boradthymleaf.entity.Memo;
+import idusw.springboot.boardthyemleaf.entity.MemoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface MemoRepository extends JpaRepository<Memo, Long> {
+public interface MemoRepository extends JpaRepository<MemoEntity, Long> {
 
 }
